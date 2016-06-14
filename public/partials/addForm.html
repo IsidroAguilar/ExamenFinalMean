@@ -16,7 +16,7 @@
             <form name ="addForm" novalidate>
 
                 <!-- Text Boxes and Other User Inputs. Note ng-model binds the values to Angular $scope -->
-                <div class="form-group">
+                <!--<div class="form-group">
                     <label for="username">Username <span class="badge">All fields required</span></label>
                     <input type="text" class="form-control" id="username" placeholder="OldandGold" ng-model="formData.username" required>
                 </div>
@@ -47,7 +47,7 @@
                     <label for="language">Favorite Language</label>
                     <input type="text" class="form-control" id="language" placeholder="Fortran" ng-model="formData.favlang" required>
                 </div>
-                <div class="form-group">
+                <div class="form-group">-->
                     <label for="latitude">Latitude</label>
                     <input type="text" class="form-control" id="latitude" value="39.500" ng-model="formData.latitude" readonly>
                 </div>
@@ -57,7 +57,7 @@
                 </div>
                 <div class="form-group">
                     <!-- Note RefreshLoc button tied to addCtrl. This requests a refresh of the HTML5 verified location. -->
-                    <label for="verified">HTML5 Verified Location? <span><button ng-click="refreshLoc()" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-refresh"></span></button></span></label>
+                    <label for="verified">HTML5 Verificación de Referencia<span><button ng-click="refreshLoc()" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-refresh"></span></button></span></label>
                     <input type="text" class="form-control" id="verified" placeholder= "Nope (Thanks for spamming my map...)" ng-model="formData.htmlverified" readonly>
                 </div>
 
